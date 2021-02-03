@@ -43,7 +43,7 @@ def takeCommand():
         print(f"user said: {query}\n")
 
     except Exception as e:
-        # print(e)
+        # print(e) use this command in that case you want to show the error
         print("Say that agian please...!")
         return "None"
     return query
